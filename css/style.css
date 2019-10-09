@@ -16,11 +16,27 @@ nav li{
 	display:center;
 }
 
-body.home 
+body 
 	{
 	background-image:url('../images/home.png');
 }
 
-h1.home {
+
+.home-img{
+	margin-top: 60px;
+	text-align: center;
+	width: 100%;
+	z-index: -1;
+}
+
+.home h1{
 	font-size: 66px;
+
+}
+
+
+
+section{
+	width: 100%;
+	margin:auto;
 }
