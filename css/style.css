@@ -1,1 +1,26 @@
 /* Enter your Styles below! */
+a {
+	text-decoration: none;
+}
+
+a:hover { color:pink; }
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 40px;
+	text-transform: uppercase;
+	padding-top: 60px;
+	display:center;
+}
+
+body.home 
+	{
+	background-image:url('../images/home.png');
+}
+
+h1.home {
+	font-size: 66px;
+}
