@@ -1,6 +1,14 @@
 /* Enter your Styles below! */
+html{
+	box-sizing: border-box;
+}
+  *, *:before, *:after {
+	box-sizing: inherit;
+}
+
 a {
 	text-decoration: none;
+
 }
 
 a:hover { color:pink;
@@ -21,98 +29,92 @@ nav li{
 	padding-top: 60px;
 	display: absolute;
 	font-family: proxima-nova, sans-serif;
-	font-weight: 400;
 	font-style: normal;	
 	color:#5A83A8;
 	text-transform: capitalize;	
+	box-sizing: border-box;
+	border: 1px solid blue;
+	background: lightgreen;
+
 }
 
 .home-img{
 	background-image: url(../images/egg_home.png);
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: contain;
 	height: 100vh;
-	background-position: 10% 50%;
-	margin-top: -140px;
+	background-position: center;
+	margin-top: -200px;
 }
 
 .home h1{
 	color:#5A83A8;
-	font-size: 66px;
+	font-size: 30px;
 	font-family: cooper-black-std, serif;
 	font-weight: 400;
-	font-style: normal;
-	margin: auto;
 	padding-top: 60px;
 	text-align: center;
+	/*border: 1px solid blue;*/
+	padding: 20px 20px 20px 20px;
+	margin-top: 25px;
 }
-
 
 section{
 	width: 100%;
 	margin:auto;
 }
 
-
 .history h1{
 	font-size:  30pt;
 	font-family: cooper-black-std, serif;
 	font-weight: 400;
-	font-style: normal;
-	margin: right;
-	padding-top: 40px;
-	padding-right: 60px;
-	text-align: left;
+	padding: 40px 60px 40px 60px;
+	margin:25px auto;
+	width: 600px;
+	text-align: center;
 	box-sizing: border-box;
-	padding-left: 10px;
+	/*border: 1px solid blue;*/
 	color:#5A83A8;	
 }
 
-
 .history-img{
-	margin-top: 0;
+	width: 350px; 
+    box-sizing: border-box;
+	/*border: 1px solid blue;*/
+	margin-left: 15%;
 	text-align: right;
-	width: 200%;
 	float: left;
+	margin-bottom: 15%;
+
 }
 
-
-.history main{
-	clear: right;
-	column-count: 1;
-	border-width: 60;
+.history p{
 	font-family: proxima-nova, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	padding-top: 60px;
+	padding: 0px 0px 60px 60px;
 	color:#5A83A8;
+	box-sizing: border-box;
+	border: 1px solid blue;
+
 }
 
 .box-container{ 
-	float:left;
-	padding-right: 60px;
-	padding-bottom: 200px;
-	padding-top: -200px;
+	float:right;
+	margin-right: 15%;
+	padding:0px 0px 20px 20px;
 	width:400px;
   	border:0
  	solid #000;
+ 	position: relative;
+ 
  	}
-
-
-.box-container1{ 
-	float:left;
-	padding-right: 60px;
-	padding-bottom: 200px;
-	width:400px;
-  	border:0
- 	solid #000;
- 	}
-
 
 .anatomy-img{
-	height: 300px
-	max-width: none;
-	min-width: 300px;
-	width: 100%;
+    width: 100%; 
+    position: scroll; 
+    left: 0px; 
+    top: 0px; 
+    box-sizing: border-box;
+	border: 1px solid blue;
         }
 
 
@@ -125,6 +127,9 @@ section{
 	font-style: normal;		
 	text-align: center;
 	color:#5A83A8;
+
+	box-sizing: border-box;
+	border: 1px solid blue;
 }
 
 .eggs h1{
@@ -155,9 +160,10 @@ section{
 	padding-top: 60px;
 	padding-right: 60px;
 	text-align: left;
-	box-sizing: border-box;
 	padding-left: 70px;
 	color:#5A83A8;
+	box-sizing: border-box;
+	border: 1px solid blue;
 }
 
 .facts-img{
