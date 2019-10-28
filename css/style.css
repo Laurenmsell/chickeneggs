@@ -108,7 +108,7 @@ section{
 	background-repeat: no-repeat;
 	background-size: 30%;
 	height: 100vh;
-	background-position: 50% 375px;
+	background-position: 50% 275px;
 	margin-bottom: 60px;
 	min-width: 100%;
 }
@@ -133,8 +133,11 @@ section{
 	color:#5A83A8;
 	white-space: normal;
 	text-overflow: ellipsis;
-	margin-right: 55%;
-	margin-left:30%;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 400px;
+	margin-bottom: 200px;
+	text-align:left;
 
 	
 }
