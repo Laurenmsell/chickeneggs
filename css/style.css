@@ -24,7 +24,20 @@ a.active {
   padding:3px;
 }
 
+a.nav li{
+	color:#5A83A8;
 
+}
+
+footer{
+	text-align: center;
+	font-family: proxima-nova, sans-serif;
+	font-size:8pt;
+	margin-bottom: 40px;
+	margin top: 350px;
+	color:#5A83A8;
+
+}
 
 @media only screen and (max-width: 600px) {
   body {
@@ -41,7 +54,6 @@ nav{
 	text-align: center;
 	width: 100%;
 	background-color: transparent;
-
 	}
 
 nav li{
@@ -136,7 +148,7 @@ section{
 	margin-right: 30%;
 	margin-left: 30%;
 	margin-top: 400px;
-	margin-bottom: 200px;
+	
 	text-align:left;
 
 	
@@ -178,6 +190,7 @@ section{
 	padding-top: 60px;
 	padding-right: 60px;	
 	padding-left: 20%;
+	padding-bottom: 1000px;
 	text-align: left;
 	box-sizing: border-box;
 	padding-bottom: 10px;
@@ -200,8 +213,7 @@ section{
   	text-align:center;
   	font-size:  10pt;
 	font-family: cooper-black-std, serif;
-	text-transform: capitalize;
-	
+	text-transform: capitalize;	
 }
 
 .zoom:hover {
@@ -262,7 +274,7 @@ section{
 	background-size: contain;
 	height: 100vh;
 	background-position: 50% 150px;
-	margin-bottom: 60px;
+	margin-bottom: 80px;
 	min-width: 100%;
 }
 
@@ -270,6 +282,7 @@ section{
 	display: block;
 	margin: auto;
 	padding-top: 80px;
+	padding-bottom: 100px;
 
 
 }
@@ -289,11 +302,7 @@ section{
 
 
 
-.funfacts-body {
-  font-family: 'Luckiest Guy', cursive;
-  font-size: 35px;
 
-}
 
 path {
   fill: transparent;
